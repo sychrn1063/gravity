@@ -1,0 +1,14 @@
+.scroll-div {
+  height: 30em;
+  width: 30em;
+  text-align: center;
+  border: 5px solid #ffffe0;
+  background-color: #ffffe0;
+  border-radius: 5%;
+  margin: 5em auto;
+  grid-area: main;
+}
+
+.loading {
+  text-align: center;
+}
