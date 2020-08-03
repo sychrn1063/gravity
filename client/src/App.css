@@ -1,0 +1,16 @@
+body {
+  font-family: 'Nunito'
+}
+
+div {
+  grid-area: "sidebar";
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "sidebar  main .";
+}
+
